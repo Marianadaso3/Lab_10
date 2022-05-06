@@ -1,0 +1,27 @@
+.Button {
+    align-items: center;
+    background:rgb(40, 78, 63);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    font-size: 45px;
+    height: 110px;
+    justify-content: center;
+    width: 110px;
+    transition: filter 0.3s ease-in;
+  }
+  
+  .Button:active,
+  .Button:focus {
+    filter: brightness(120%);
+  }
+    
+  .Button.funcion {
+    color: black;
+    background: #9ecfbb;
+  }
+  
+  .Button.operador {
+    background: rgb(52, 220, 164);
+  }
+  
